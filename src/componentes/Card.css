@@ -10,10 +10,6 @@
     height: fit-content;
 }
 
-/* .buttons:active {
-    background: linear-gradient(to bottom, var(--Green), rgb(63, 247, 2), transparent);
-  } */
-
 @media screen and (min-width: 1440px) {
     .dinamicConteiner {
         display: flex;
