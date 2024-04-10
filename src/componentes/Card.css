@@ -15,7 +15,7 @@
   } */
 
 @media screen and (min-width: 1440px) {
-    .form {
+    .dinamicConteiner {
         display: flex;
         align-items: center;
         justify-content: center;

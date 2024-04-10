@@ -1,12 +1,7 @@
-.form1 {
+.conteiner-details {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.informacion {
-    display: flex;
     flex-direction: column;
 }
 
