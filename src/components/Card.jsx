@@ -3,10 +3,11 @@ import UserDetails from './UserDetails'
 import BotonSection from './BotonSection'
 import './Card.css'
 
-const Card = () => {
+const Card = (props) => {
+    const user = props.user;
     return (
         <div className="dinamicConteiner">
-            <UserDetails />
+            {/* <UserDetails user={user} /> */}
             <BotonSection />
         </div>
     );
