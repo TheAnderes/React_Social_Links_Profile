@@ -1,12 +1,8 @@
 import React from "react";
 import './UserDetails.css'
-import { useState } from "react";
 
 const UserDetails = (props) => {
-    const [userOne, setuserOne] = useState({
-    });
-    setuserOne(props.user);
-
+    const userOne = props.user
     return (
         <div className="conteiner-details">
             <img src={userOne.avatar} className="imagen" alt={`avatar de ${userOne.name}`} />

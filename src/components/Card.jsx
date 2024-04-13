@@ -4,11 +4,12 @@ import BotonSection from './BotonSection'
 import './Card.css'
 
 const Card = (props) => {
-    const user = props.user;
+    const details = props.user;
+    const sociaLinks = details.SocialLinks;
     return (
         <div className="dinamicConteiner">
-            {/* <UserDetails user={user} /> */}
-            <BotonSection />
+            <UserDetails user={details} />
+            <BotonSection botones={sociaLinks} />
         </div>
     );
 };
