@@ -1,0 +1,38 @@
+.conteiner-rick {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.conteiner-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.conteiner-datos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imagen {
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.descrip {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    color: var(--White);
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    height: 10px;
+}

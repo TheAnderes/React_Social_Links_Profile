@@ -3,20 +3,30 @@ import './App.css'
 import Card from './components/Card'
 
 function App() {
-  const [users, setusers] = useState([])
+  function Aleatorio() {
+    const numeros = [];
+    for (let i = 0; i < 30; i++) {
+      numeros.push(Math.floor(Math.random() * 857));
+    }
+    numeros.toString();
+    return numeros;
+  };
+  const [users, setUsers] = useState([]);
+
   useEffect(() => {
-    fetch('https://661038100640280f219c9a20.mockapi.io/api/v1/users').then(response => {
+    fetch("https://rickandmortyapi.com/api/character/" + Aleatorio()).then(response => {
       return response.json();
     }).then(data => {
-      setusers(data)
+      setUsers(data)
       console.log(data)
     })
   }, []);
+
   return (
-    <div>
+    <div className="principal">
       {
         users.map(
-          (user) => (<Card key={user.id} user={user} />)
+          (datos) => (<Card className="" key={datos.id} user={datos} />)
         )
       }
     </div>

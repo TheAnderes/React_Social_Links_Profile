@@ -5,10 +5,10 @@ const UserDetails = (props) => {
     const userOne = props.user
     return (
         <div className="conteiner-details">
-            <img src={userOne.avatar} className="imagen" alt={`avatar de ${userOne.name}`} />
+            <img src={userOne.image} className="imagen" alt={`avatar de ${userOne.name}`} />
             <p className="nombre">{userOne.name}</p>
-            <p className="lugar">{userOne.location}</p>
-            <p className="descrip">{userOne.description}</p>
+            <p className="lugar">{userOne.species}</p>
+            <p className="descrip">{userOne.status}</p>
         </div>
     );
 };
