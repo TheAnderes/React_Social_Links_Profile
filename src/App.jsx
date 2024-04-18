@@ -6,7 +6,7 @@ function App() {
   function Aleatorio() {
     const numeros = [];
     for (let i = 0; i < 30; i++) {
-      numeros.push(Math.floor(Math.random() * 857));
+      numeros.push(Math.floor(Math.random() * 826));
     }
     numeros.toString();
     return numeros;
