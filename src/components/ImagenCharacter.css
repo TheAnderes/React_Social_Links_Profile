@@ -24,7 +24,7 @@
     width: 80%;
 }
 
-.buttons:hover {
+.buttons-character:hover {
     background: var(--Green);
     color: black;
 }
