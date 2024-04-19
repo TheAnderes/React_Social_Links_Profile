@@ -1,0 +1,16 @@
+.conteiner-dinamic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    flex-direction: column;
+    background-color: var(--DarkGrey);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 1080px) {
+    .conteiner-dinamic {
+        width: 100%;
+    }
+}

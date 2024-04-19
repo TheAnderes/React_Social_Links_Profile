@@ -1,6 +1,7 @@
-.principal{
+.principal {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
