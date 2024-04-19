@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import './App.css'
-import RickAndMortyApp from './RickAndMortyApp';
+import Navigation from './routes/Navigation'
 
 
 function App() {
   return (
     <div>
-      <RickAndMortyApp />
+      <Navigation />
     </div>
   )
 }

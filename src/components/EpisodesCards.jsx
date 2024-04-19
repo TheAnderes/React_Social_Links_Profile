@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import './EpisodesCards.css'
+import { NavLink } from 'react-router-dom';
 
 function EpisodesCards(props) {
     const information = props.info;
@@ -80,7 +81,9 @@ function EpisodesCards(props) {
                 )
                 }
             </div>
-            <button className="buttons-episodes">HOME</button>
+            <NavLink to={"/"}>
+                <button className="buttons-episodes">HOME</button>
+            </NavLink>
         </div>
     );
 };
