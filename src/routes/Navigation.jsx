@@ -8,7 +8,7 @@ const Navigation = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/React_Social_Links_Profile/" element={<Home />} />
                 <Route path="/character" element={<RickAndMortyApp />} />
                 <Route path="/*" element={<p>Error 404</p>} />
             </Routes>
