@@ -10,13 +10,13 @@ const Card = (props) => {
     console.log(details)
     const sociaLinks = details.SocialLinks;
     return (
-        <NavLink to={`/character?id=${details.id}`}>
-            <div className="dinamicConteiner">
+        <div className="dinamicConteiner">
+            <NavLink to={`/character?id=${details.id}`}>
                 <RickSection user={details} />
                 {/* <UserDetails user={details} /> */}
                 {/* <BotonSection botones={sociaLinks} /> */}
-            </div>
-        </NavLink>
+            </NavLink>
+        </div>
     );
 };
 

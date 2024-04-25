@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 import { useEffect, useState } from 'react';
+import './Home.css'
 
 const Home = () => {
     function Aleatorio() {
@@ -27,8 +28,7 @@ const Home = () => {
         <div className="cartas-continer">
             {
                 users.map(
-                    (datos) => (
-                        <Card key={datos.id} user={datos} />)
+                    (datos) => (<Card key={datos.id} user={datos} />)
                 )
             }
         </div>

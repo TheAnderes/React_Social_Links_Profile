@@ -14,6 +14,7 @@
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
+    width: 100%;
 }
 
 .conteiner-episodes {
@@ -65,13 +66,20 @@
     height: 10px;
 }
 
+.navegaciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
 @media screen and (min-width: 1080px) {
     .tarjeta-episodes {
         flex-direction: row;
         width: 230px;
     }
 
-    .buttons-episodes {
-        width: 50%;
+    .navegaciones {
+        width: 150px;
     }
 }

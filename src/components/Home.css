@@ -1,14 +1,15 @@
 .cartas-continer {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    height: fit-content;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 @media screen and (min-width: 1080px) {
     .cartas-continer {
-        flex-wrap: wrap;
         flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }

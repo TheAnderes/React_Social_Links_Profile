@@ -70,7 +70,7 @@ function EpisodesCards(props) {
     console.log(episodios)
     return (
         <div className="conteiner-episodes">
-            <p className="descrip-carac">EPISODES</p>
+            <p className="descrip-carac">FIRST FIVE EPISODES</p>
             <div className="episodes-carac">
                 {episodios.map((epi) => (
                     <div key={epi.id} className="tarjeta-episodes">
@@ -81,7 +81,7 @@ function EpisodesCards(props) {
                 )
                 }
             </div>
-            <NavLink to={"/"}>
+            <NavLink className={"navegaciones"} to={"/"}>
                 <button className="buttons-episodes">HOME</button>
             </NavLink>
         </div>

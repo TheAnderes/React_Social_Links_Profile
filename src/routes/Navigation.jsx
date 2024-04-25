@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../components/Home'
 import RickAndMortyApp from '../components/RickAndMortyApp'
+import './Navigation.css'
 
 const Navigation = () => {
     return (
