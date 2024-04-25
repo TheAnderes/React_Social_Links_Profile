@@ -81,7 +81,7 @@ function EpisodesCards(props) {
                 )
                 }
             </div>
-            <NavLink className={"navegaciones"} to={"/"}>
+            <NavLink className={"navegaciones"} to={"/React_Social_Links_Profile/"}>
                 <button className="buttons-episodes">HOME</button>
             </NavLink>
         </div>
