@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../components/Home'
 import RickAndMortyApp from '../components/RickAndMortyApp'
 
-function Navigation() {
+const Navigation = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -12,7 +12,7 @@ function Navigation() {
                 <Route path="/*" element={<p>Error 404</p>} />
             </Routes>
         </BrowserRouter>
-    )
-}
+    );
+};
 
-export default Navigation
+export default Navigation;

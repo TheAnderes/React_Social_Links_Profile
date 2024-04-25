@@ -1,13 +1,12 @@
-import { useEffect, useState } from 'react';
 import './App.css'
 import Navigation from './routes/Navigation'
 
 
 function App() {
   return (
-    <div>
+    <>
       <Navigation />
-    </div>
+    </>
   )
 }
 

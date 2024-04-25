@@ -48,3 +48,25 @@
     font-weight: 800;
     height: 2px;
 }
+
+.status-conteiner {
+    background: var(--Grey);
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    border: 100px;
+    border-color: var(--White);
+}
+
+.descrip-statusqo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    height: 0px;
+}

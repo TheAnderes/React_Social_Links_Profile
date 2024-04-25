@@ -24,14 +24,14 @@ const Home = () => {
     }, []);
 
     return (
-        <>
+        <div className="cartas-continer">
             {
                 users.map(
                     (datos) => (
                         <Card key={datos.id} user={datos} />)
                 )
             }
-        </>
+        </div>
     )
 };
 export default Home;
